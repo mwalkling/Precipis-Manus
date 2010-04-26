@@ -1,10 +1,12 @@
 Legend: '*' - Complete, ' ' - Incomplete
 
 Setup
-[*] Create c++ windows form application - Stephen
-[*] Start a todo list - Stephen
+[*] Create c++ windows form application. - Stephen
+[*] Start a todo list. - Stephen
 
 
-This is a sample todo list
-[*] This is a completed todo item - User that completed the item
-[ ] This is an imcomplete todo item
+Deck Class
+[ ] Find full deck of cards.
+[ ] Find tileable felt background.
+[ ] Create constructor that initializes the deck with the 52 cards. Cards need to have a name and an index.
+[ ] Create card(int) function that returns a card.
