@@ -1,18 +1,14 @@
-// Blackjack Project.cpp : main project file.
+// Blackjack Project.cpp : Defines the entry point for the console application.
+//
+#include <conio.h>
+#include <iostream>
+using namespace std;
 
-#include "stdafx.h"
-#include "Form1.h"
-
-using namespace BlackjackProject;
-
-[STAThreadAttribute]
-int main(array<System::String ^> ^args)
+int main()
 {
-	// Enabling Windows XP visual effects before any controls are created
-	Application::EnableVisualStyles();
-	Application::SetCompatibleTextRenderingDefault(false); 
 
-	// Create the main window and run it
-	Application::Run(gcnew Form1());
+	cout << ("Press any key to continue . . ." ) << endl;
+    _getch();
 	return 0;
 }
+
