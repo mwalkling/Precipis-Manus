@@ -61,6 +61,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="2"
+				ModuleDefinitionFile=""
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
@@ -133,6 +134,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				LinkIncremental="1"
+				ModuleDefinitionFile="mike.def"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				OptimizeReferences="2"
@@ -171,6 +173,10 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\ben.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Blackjack Project.cpp"
 				>
 				<FileConfiguration
@@ -181,6 +187,18 @@
 						UsePrecompiledHeader="0"
 					/>
 				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\janis.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\mike.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\missy.cpp"
+				>
 			</File>
 			<File
 				RelativePath=".\stdafx.cpp"
@@ -208,6 +226,26 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\ben.h"
+				>
+			</File>
+			<File
+				RelativePath=".\janis.h"
+				>
+			</File>
+			<File
+				RelativePath=".\mike.h"
+				>
+			</File>
+			<File
+				RelativePath=".\missy.h"
+				>
+			</File>
+			<File
+				RelativePath=".\shared.h"
+				>
+			</File>
 			<File
 				RelativePath=".\stdafx.h"
 				>
