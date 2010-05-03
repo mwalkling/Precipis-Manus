@@ -8,6 +8,8 @@
 #include "shared.h"
 #include "mike.h"
 #include "janis.h"
+#include "ben.h"
+#include "missy.h"
 
 using namespace std;
 
